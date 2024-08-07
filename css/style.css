@@ -1,0 +1,84 @@
+.content {
+    padding: 120px 0;
+}
+
+.content .title h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.content .title p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 24px 0 0 0;
+}
+
+.mainContent {
+    background: url(../images/section2_bg.jpg) repeat-x;
+}
+
+.mainContent .w_inner {
+    display: flex;
+    gap: 80px;
+    max-width: calc((100% - 1170px)/2 + 1170px);
+    margin: 0 0 0 auto;
+}
+
+.mainContent .w_inner .left {
+    flex: 0 1 400px;
+    min-width: 0;
+}
+
+.mainContent .w_inner .itm figure {
+    margin: 0 0 40px 0;
+}
+
+.mainContent .w_inner .left .itm figure {
+    max-width: 400px;
+    box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.2);
+}
+
+.mainContent .w_inner .right {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+    overflow: hidden;
+}
+
+.mainContent .w_inner .right .right_slide {
+    margin: auto -100px 0 0;
+}
+
+.mainContent .w_inner .right .right_slide .itm {
+    margin: 0 20px 0 0;
+}
+
+.mainContent .title {
+    padding: 24px 0 0 0;
+    margin: 0 0 40px 0;
+}
+
+.mainContent .title h2 {
+    color: #fff;
+}
+
+.mainContent .title p {
+    color: #fff;
+}
+
+.mainContent .arrows {
+    display: flex;
+    align-self: flex-start;
+    border: 1px solid #fff;
+}
+
+.mainContent .arrows i {
+    color: #fff;
+    padding: 16px;
+    font-size: 14px;
+}
+
+.mainContent .arrows button~button {
+    border-left: 1px solid #fff;
+}
